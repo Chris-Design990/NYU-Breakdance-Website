@@ -11,3 +11,14 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
+.container {
+	
+	justify-content: center;
+	align-content: center;
+	flex-shrink: 1;
+	gap: 1em;
+	box-sizing: border-box;
+	flex-grow: 1;
+
+}
