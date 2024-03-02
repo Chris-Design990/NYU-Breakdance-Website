@@ -1,10 +1,63 @@
-body{
-
-	background-color: purple;
+body {
+	background-color: lightgoldenrodyellow;
 }
 
-.emphasis{
+h1   {
+	color: darkblue;
+	font-size: 40px;
+}
+p    {
+	color: darkblue;
+	font-size: 30px;
+}
+
+img {
+	display: block;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	width: 50%;
+}
+
+#homeImage {
+	width: 25%;
+}
+
+#Terry {
+	width: 50%;
+}
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
-	background-color: green;
+.centeringContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.col {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+	font-size: 2em;
+	background-color: #fff;
+}
+
+
+.container {
+	
+	justify-content: center;
+	align-content: center;
+	flex-shrink: 1;
+	gap: 1em;
+	box-sizing: border-box;
+	flex-grow: 1;
+
+}
+
+.flex-parent {
+	display: flex;
+	flex-basis: 100%;
 }
